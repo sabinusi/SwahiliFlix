@@ -1,0 +1,213 @@
+@mixin padding-movies-title {
+  font-size: 2.4rem;
+  font-family: Produkt-Bold;
+  padding: 2rem;
+}
+
+@mixin add-text-to-background-imag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+@mixin add-text-to-background-imag-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.landing {
+  //   header
+  .header {
+    height: 50rem;
+    @include background-cover("../../../assets/Images/image--000.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main {
+      height: 80%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+
+      .text {
+        text-align: center;
+        line-height: 5rem;
+        font-size: 2.4rem;
+        h1 {
+          font-size: 5rem;
+          font-family: FranzSans-Heavy;
+        }
+        p {
+          &:last-child {
+            font-family: FranzSans-Bold;
+          }
+        }
+      }
+    }
+  }
+  //   header
+
+  //genre
+  .genre {
+    height: 77rem;
+    border-top: $border-section;
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    .container {
+      width: $app-width;
+      .main {
+        height: 40rem;
+        display: flex;
+        justify-content: space-between;
+        ._latest-movies {
+          width: 32%;
+          @include add-text-to-background-imag;
+          @include background-cover-no-url;
+          h4 {
+            @include padding-movies-title();
+          }
+        }
+        ._section-2 {
+          width: 23%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          ._top {
+            height: 27%;
+            @include add-text-to-background-imag;
+            @include background-cover-no-url;
+            h4 {
+              @include padding-movies-title();
+            }
+          }
+          ._bottom {
+            height: 70%;
+            @include add-text-to-background-imag;
+            @include background-cover-no-url;
+
+            h4 {
+              @include padding-movies-title();
+            }
+          }
+        }
+        ._section-3 {
+          width: 23%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          ._top {
+            height: 37%;
+            @include add-text-to-background-imag-top;
+            @include background-cover-no-url;
+            h4 {
+              @include padding-movies-title();
+            }
+          }
+          ._bottom {
+            height: 60%;
+            @include add-text-to-background-imag;
+            @include background-cover-no-url;
+            h4 {
+              @include padding-movies-title();
+            }
+          }
+        }
+        ._section-4 {
+          width: 18%;
+          @include add-text-to-background-imag-top;
+          @include background-cover-no-url;
+          h4 {
+            @include padding-movies-title();
+          }
+        }
+      }
+      .watch-everywhere {
+        height: 30rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        ._text {
+          h2 {
+            font-size: 3rem;
+            font-family: Produkt-Bold;
+            line-height: 5rem;
+          }
+          p {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+  //genre
+
+  .tv {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: $border-section;
+    .container {
+      width: $app-width;
+      display: flex;
+      justify-content: space-around;
+      ._text {
+        h2 {
+          font-size: 3rem;
+          font-family: Produkt-Bold;
+          line-height: 5rem;
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .online {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: $border-section;
+    .container {
+      width: $app-width;
+      display: flex;
+      justify-content: space-around;
+      ._text {
+        h2 {
+          font-size: 3rem;
+          font-family: Produkt-Bold;
+          line-height: 5rem;
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .questions {
+    border-top: $border-section;
+    // height: 40rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        font-size: 3.6rem;
+        font-family: Produkt-Bold;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

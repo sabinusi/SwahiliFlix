@@ -1,0 +1,30 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  @include respond(tab-land) {
+    font-size: 60%; //9 rem=9
+  }
+  @include respond(tab-port) {
+    font-size: 50%; //i rem=8px 8/16%
+  }
+  @include respond(phone) {
+    font-size: 40%;
+  }
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem =12
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: FranzSans-Light;
+  color: $white;
+  background-color: $black;
+  width: 100wh;
+}

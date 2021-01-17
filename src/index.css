@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "FranzSans-Bold";
+  src: local("FranzSans-Bold"),
+    url("./styles/Fonts/FranzSans/FranzSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-ExtraBold";
+  src: local("FranzSans-ExtraBold"),
+    url("./styles/Fonts/FranzSans/FranzSans-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-ExtraLight";
+  src: local("FranzSans-ExtraLight"),
+    url("./styles/Fonts/FranzSans/FranzSans-ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-Heavy";
+  src: local("FranzSans-Heavy"),
+    url("./styles/Fonts/FranzSans/FranzSans-Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-Light";
+  src: local("FranzSans-Light"),
+    url("./styles/Fonts/FranzSans/FranzSans-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-Medium";
+  src: local("FranzSans-Medium"),
+    url("./styles/Fonts/FranzSans/FranzSans-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-SemiBold";
+  src: local("FranzSans-SemiBold"),
+    url("./styles/Fonts/FranzSans/FranzSans-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FranzSans-SemiLight";
+  src: local("FranzSans-SemiLight"),
+    url("./styles/Fonts/FranzSans/FranzSans-SemiLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik-Light";
+  src: local("Graphik-Lightt"),
+    url("./styles/Fonts/Graphik/Graphik/Graphik-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Regular";
+  src: local("Graphik-Regular"),
+    url("./styles/Fonts/Graphik/Graphik/Graphik-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Semibold";
+  src: local("Graphik-Semibold"),
+    url("./styles/Fonts/Graphik/Graphik/Graphik-Semibold.otf")
+      format("opentype");
+}
+@font-face {
+  font-family: "GraphikLCG-Light";
+  src: local("GraphikLCG-Light"),
+    url("./styles/Fonts/Graphik/GraphikLCG/GraphikLCG-Light.otf")
+      format("opentype");
+}
+@font-face {
+  font-family: "Produkt-Light";
+  src: local("Produkt-Light"),
+    url("./styles/Fonts/Graphik/Produkt/Produkt-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Produkt-Black";
+  src: local("Produkt-Black"),
+    url("./styles/Fonts/Graphik/Produkt/Produkt-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Produkt-BlackItalic";
+  src: local("Produkt-BlackItalic"),
+    url("./styles/Fonts/Graphik/Produkt/Produkt-BlackItalic.otf")
+      format("opentype");
+}
+@font-face {
+  font-family: "Produkt-Bold";
+  src: local("Produkt-Bold"),
+    url("./styles/Fonts/Graphik/Produkt/Produkt-Bold.otf") format("opentype");
+}

@@ -1,0 +1,17 @@
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 1.5rem 3.5rem;
+  background-image: linear-gradient(to right, $red, $yellow);
+  color: $white;
+  font-size: 2.5rem;
+  font-family: "FranzSans-SemiBold";
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba($black, 0.2);
+}
+.btn:hover {
+  cursor: default;
+}
+.btn:active {
+  transform: scale(0.99);
+}

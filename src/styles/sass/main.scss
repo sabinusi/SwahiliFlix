@@ -1,0 +1,15 @@
+@import "abstract/variables";
+@import "abstract/mixins";
+
+@import "base/base";
+@import "base/animations";
+@import "base/utilities";
+@import "base/typography";
+
+@import "abstract/functions";
+
+@import "component/buttons";
+@import "component/accordition";
+
+@import "pages/landing.scss";
+@import "pages/language.scss";
