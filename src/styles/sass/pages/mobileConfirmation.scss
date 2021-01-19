@@ -1,0 +1,24 @@
+.MobileConfirmation {
+  display: flex;
+  justify-content: center;
+  .container {
+    width: $app-width;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    .main-content {
+      width: 40rem;
+      align-self: center;
+      margin-top: 4rem;
+      h2 {
+        margin-bottom: 3rem;
+        text-align: center;
+        font-family: FranzSans-SemiBold;
+        font-size: 2.4rem;
+      }
+      .contrycodeinput {
+        margin-top: 4rem;
+      }
+    }
+  }
+}

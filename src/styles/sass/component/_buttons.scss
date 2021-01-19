@@ -1,8 +1,6 @@
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  padding: 1.5rem 3.5rem;
-  background-image: linear-gradient(to right, $red, $yellow);
   color: $white;
   font-size: 2.5rem;
   font-family: "FranzSans-SemiBold";
@@ -14,4 +12,41 @@
 }
 .btn:active {
   transform: scale(0.99);
+}
+
+.btn-watch {
+  padding: 1.5rem 5rem;
+  background-image: linear-gradient(to right, $red, $yellow);
+}
+
+.btn-english {
+  padding: 1rem 7rem;
+  background-image: linear-gradient(to right, $red, $yellow);
+}
+.btn-swahili {
+  padding: 1rem 7rem;
+  color: $black !important;
+  background-color: #dddddd;
+}
+.btn-login {
+  width: 100%;
+  margin-top: 1.5rem;
+  background-image: linear-gradient(to right, $red, $yellow);
+  height: 3.5rem;
+  color: $white;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+.btn-login:focus {
+  outline: none;
+}
+.btn-login-5 {
+  height: 5.5rem !important;
+  font-family: Graphik-Semibold;
+  font-size: 2.2rem !important;
+  border-radius: 1rem !important;
+  border: none !important;
+  &:focus {
+    transform: scale(0.95);
+  }
 }

@@ -1,0 +1,31 @@
+.inpt {
+  width: 100%;
+  font-family: inherit;
+  padding: 0.7rem 1rem;
+  border: 0.1rem solid rgba(245, 245, 245, 0.856);
+  background-color: inherit;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  color: inherit;
+}
+.inpt:focus {
+  outline: none;
+  transform: scale(1.01);
+}
+
+.inpt-country {
+  width: 80% !important;
+  padding: 0.2rem 0.6rem;
+  background-color: white;
+}
+
+.input-phone {
+  height: 100%;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  &:focus {
+    outline: none;
+    transform: scale(1.01);
+    border: 0.2rem solid grey;
+  }
+}

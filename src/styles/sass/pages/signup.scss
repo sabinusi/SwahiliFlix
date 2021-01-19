@@ -1,0 +1,56 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  .container {
+    width: $app-width;
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    .top {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      a {
+        font-size: 1.8rem;
+        cursor: pointer;
+      }
+    }
+
+    .content {
+      align-self: center;
+      margin-top: 2rem;
+      width: 30rem;
+      h2 {
+        font-size: 2.2rem;
+        font-family: FranzSans-SemiBold;
+        text-align: center;
+      }
+      div {
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: Graphik-Semibold;
+        line-height: 1.7rem;
+        padding-top: 1rem;
+      }
+      .form {
+        .input-container {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          font-size: 1.4rem;
+          label {
+            padding: 0.7rem 0 0.7rem 0.7rem;
+          }
+        }
+        &:last-child {
+          padding-top: 0.7rem;
+        }
+        button {
+          margin-top: 3.9rem;
+        }
+      }
+    }
+  }
+}

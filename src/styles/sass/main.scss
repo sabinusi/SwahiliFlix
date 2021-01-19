@@ -10,6 +10,13 @@
 
 @import "component/buttons";
 @import "component/accordition";
+@import "component/input";
+@import "component/countryCode";
+@import "component/header";
+@import "component/countryCodeInput";
 
 @import "pages/landing.scss";
 @import "pages/language.scss";
+@import "pages/login.scss";
+@import "pages/signup.scss";
+@import "pages/mobileConfirmation.scss";

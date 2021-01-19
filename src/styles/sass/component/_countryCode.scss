@@ -1,0 +1,75 @@
+.CountryCode {
+  background-color: $white;
+  color: $black;
+  font-size: 1.6rem;
+  font-family: FranzSans-Medium;
+  width: 100%;
+  .search {
+    height: 4.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+    &:active {
+      transform: scale(1.02);
+    }
+    ._left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .content {
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+  }
+  .main {
+    color: $black;
+    background-color: grey;
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+      margin: 0.2rem 0;
+      position: static;
+    }
+    ul {
+      width: 100%;
+      height: 30rem;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        width: 1rem;
+      }
+      &::-webkit-scrollbar-track {
+        border: 0.2rem solid $yellow;
+        box-shadow: 0.1rem 2rem 2rem rgba($color: #000000, $alpha: 0.1);
+        background-color: white;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg, $yellow, $black);
+        border-radius: 50%;
+        height: 2rem;
+      }
+      li {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 1rem;
+        font-size: 1.4rem;
+        border-bottom: 0.2rem solid $yellow;
+        color: $white;
+
+        &:active {
+          background-color: $black;
+          transform: scale(0.97);
+          box-shadow: 0.5rem 1rem 1rem rgba($color: #000000, $alpha: 0.2);
+        }
+      }
+    }
+  }
+}

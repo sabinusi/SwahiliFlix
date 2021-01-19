@@ -30,9 +30,10 @@ function Landing(props) {
           </div>
           <a
             href="#"
-            className="btn"
+            className="btn btn-watch"
             onClick={(e) => {
               e.preventDefault();
+              props.history.push("/language");
             }}
           >
             Start Watching
@@ -91,7 +92,7 @@ function Landing(props) {
               <p>Stream unlimited movies and TV shows on your</p>
               <p>phone, tablet, laptop, and TV without paying more.</p>
             </div>
-            <img src={Everywhere} />
+            <img src={Everywhere} height="227" width="400" />
           </div>
         </div>
       </div>
@@ -118,7 +119,7 @@ function Landing(props) {
             <p>Stream unlimited movies and TV shows on your</p>
             <p>phone, tablet, laptop, and TV without paying more.</p>
           </div>
-          <img src={Download} height="220" />
+          <img src={Download} height="220" width="439" />
         </div>
       </div>
       {/* online */}
